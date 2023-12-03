@@ -9,7 +9,7 @@
       content="This includes information about Rihab's career in music and her newly-discovered interest in coding. Rihab aspires to training more in order to be able to build interactive websites for children to use anywhere in the world and enjoy making music"
     />
     <link rel="stylesheet" href="style.css" />
-    <title>information about Rihab</title>
+    <title>Rihab's portfolio</title>
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
@@ -26,8 +26,8 @@
       div {
         font-size: xx-small;
         align-items: center;
+        
       }
-    
       h3{
         font-size: large;
         color:#DE8365 ;
@@ -35,6 +35,9 @@
       h1 {
         font-size: xx-small;
         
+      }
+      .pics{
+       
       }
       .subheading{
         background: none;
@@ -46,7 +49,11 @@
     h3{   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
         sans-serif;
         color:#DE8365 ;}
-
+h1{
+  margin: 0px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+}
     .subheading{
       text-align: center;
       margin: 20px 350px;
@@ -80,12 +87,20 @@
   align-items: center;
   justify-content: center;
 }
-
-img{
-max-width:70%;
+a{
+display: flex;
+justify-content: center;
+color: #DE8365;
+margin-top: 3px;
+text-decoration: underline;
 }
-p{font-size: large;
-   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif}
+a:hover{
+  color: #12BFBA;
+}
+.address{
+  color: #597A7F
+}
+
   </style>
   <body>
     <a
@@ -105,32 +120,57 @@ p{font-size: large;
     </a>
   </div>
 </div>
- 
-      <div class="">
-          <h1 class="p-3 ">About me</h1>
+    <h1 class="p-2 mt-3">Rihab & Coding</h1>
 
-    <h3 class="p-2 " class="description">Musician & Front-end developer</h3>
-    
-    <div class="d-flex" class="container">
-      <div class="text-column" class="col-6">
-        <p  class="m-5" title="This is an introduction about Rihab Azar, an outline of her career in music and her aspirations in her coding journey to combine both music and coding">
-           I grew up in Syria, lived and studied there until 2015 when I moved to the Uk to do an MA in Music Education at UCL.
-    I have been a freelance musician for a long time and I love it. I write music, play live concerts and I teach music to children.
-    I also lead community music workshops.  
-    </br>
-    In the last few months I started feeling drawn to coding as a career that can be suitabe for my wider interests and I thought that learning how to code might give me more freedom to work from anywhere in the world.</br>
-      For my coding aspirations, I'd love to help grassroot organisations and humanitarian
-      initiatives build attractive platforms as well as building interactive music-education websites for children to enjoy and for teachers to organise their work. </p>
-      </div>
-      <div class="col-6 d-block mt-5 mb-5">
-        <img class="img-fluid" src="images/library.png" alt="This is a screenshot of a Worldclock website page" />
-      </div>
-</div>
+    <h3 class="p-2 " class="description">Front-end developer from london, UK</h3>
+    <p
+      title="this is an introduction about Rihab Azar, an outline of her career in music and her aspirations in her Coding journey to combine both music and coding"
+    >
+      I started my Coding journey with SheCodes in September 2023 and have
+      been enjoying the progress I have made and the projects I have finished. <br>I
+      think what I'd like to do in the future is design websites that are
+      accessible and fun for children to make music anywhere they are in the
+      world. </br>
+      I'd also love to help grassroot organisations and humanitarian
+      initiatives build attractive platforms
+    </p>
 
+    <div class="images" class="container m-4">
+      <div class="container"> <div class="subheading">My coding projects with SheCodes</div></div>
+
+      <div class="row d-flex flex-wrap m-2" class="projects">
+        <div class="col-sm-4">
+        <img
+          class=" img-fluid rounded"
+          id="intro"
+          src="images/intro.png"
+          alt="this is a screenshot of a webpage introducing Rihab Azar"
+        />
+        <a target="_blank" href="https://www.shecodes.io/cohorts/shecodes-plus-add-on-aa18791e-9ca2-4471-856b-e45c9958e5a0/projects/1943963">visit this project</a>
+        </div>
+    <div class="col-sm-4">
+        <img
+          class="img-fluid rounded"
+          id="weather"
+          src="images/weatherapp.png"
+          alt="this is a screenshot of a Forecast website page"/>
+          <a href="https://www.shecodes.io/cohorts/shecodes-plus-354f4d9e-fcd3-4111-b88a-0381c92e7189/projects/1936359" target="_blank"> visit this project</a>
+    </div>
+          <div class="col-sm-4">
+        <img
+          class="img-fluid rounded"
+          id="clock"
+          src="images/world.png"
+          alt="this is a screenshot of a Worldclock website page"
+        />
+        <a href="https://www.shecodes.io/cohorts/shecodes-basics-c5d602f8-24b1-472e-a63e-60b4fa1c397e/projects/1871827" target="_blank">visit this project</a>
+      </div>
+      </div>
+    </div>
 <div class="container">
   <div class="d-flex flex-column m-3 p-2 email-card">
     <h2 class="email" title="contact Rihab Azar on the email below this text">📮 Contact me:</h2>
-    <a class="" href="mailto:rihabazar@gmail.com" title="this is the email address you can use to contact Rihab Azar">
+    <a class="address" href="mailto:rihabazar@gmail.com" title="this is the email address you can use to contact Rihab Azar">
       rihabazar@gmail.com
     </a>
   </div>
