@@ -17,6 +17,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
   </head>
   <style>
+    body {
+      background-color: #f4e696;
+    }
     @media (max-width: 600px) {
       .navbar-brand {
         margin-left: 10px;
@@ -39,6 +42,7 @@
         "Lucida Sans", Arial, sans-serif;
       font-weight: bold;
       font-size: xx-large;
+      margin: auto;
     }
     #dark-btn {
       background-color: lightblue;
@@ -115,40 +119,29 @@
         </div>
       </div>
     </nav>
-    <h2 class="text-center mt-5" title="Welcome to this Website">
+    <h2 class="text-center mt-3" title="Welcome to this Website">
       👋 Hi, I am
     </h2>
     <div class="d-flex justify-content-center m-5">
       <h1
-        class="rounded d-inline-block p-2 justify-content-center"
+        class="rounded d-inline-block p-1 justify-content-center"
         title="This is the name of the person this portfolio is made by, Syrian/British musician/front-end developer Rihab Azar"
       >
         Rihab Azar
       </h1>
     </div>
-    <div class="">
-      <h3 title="Rihab Azar is Syrian/British and she is based in London, UK">
-        🇬🇧🇸🇾 Musician & Front-end developer,
-        <div>based in london</div>
-      </h3>
-    </div>
 
-    <div class="info" class="d-block text-center">
-      <button type="button" class="btn btn-light border thicker-border m-3">
-        <a href="about.html#email" class="text-decoration-none green">
-          Contact me</a
-        >
-      </button>
-      <button type="button" class="btn btn-dark m-3" id="dark-btn">
-        <a href="about.html" class="text-decoration-none green">About me</a>
-      </button>
-    </div>
-    <div>
-      <h4 class="d-flex justify-content-center m-3">An overview</h4>
+    <h3 title="Rihab Azar is Syrian/British and she is based in London, UK">
+      🇬🇧🇸🇾 Musician & Front-end developer,
+      <div>based in london</div>
+    </h3>
+
+  
+      <h4 class="d-flex justify-content-center mt-3 mb-4">An overview</h4>
     </div>
     <div class="row d-flex justify-content-center">
-      <div class="col-6">
-        <div class="card" style="width: 18rem">
+      <div class="col-6 d-flex">
+        <div class="card flex-fill" style="width: 18rem">
           <div class="card-body">
             <h5 class="card-title">Music</h5>
             <img
@@ -169,8 +162,8 @@
           </div>
         </div>
       </div>
-      <div class="col-6">
-        <div class="card" style="width: 18rem">
+      <div class="col-6 d-flex">
+        <div class="card flex-fill" style="width: 18rem">
           <div class="card-body d-block justify-content-center">
             <h5 class="card-title">Coding</h5>
             <img
@@ -191,5 +184,16 @@
         </div>
       </div>
     </div>
+      <div class="info" class="d-block text-center">
+      <button type="button" class="btn btn-light border thicker-border m-3">
+        <a href="about.html#email" class="text-decoration-none green">
+          Contact me</a
+        >
+      </button>
+      <button type="button" class="btn btn-dark m-3" id="dark-btn">
+        <a href="about.html" class="text-decoration-none green">About me</a>
+      </button>
+    </div>
+    <div>
   </body>
 </html>
