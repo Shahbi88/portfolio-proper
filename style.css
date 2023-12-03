@@ -16,10 +16,6 @@ h3 {
   margin: 0;
 }
 
-h1 {
-  font-size: 96px;
-}
-
 h2 {
   font-size: 48px;
 }
@@ -91,4 +87,7 @@ p {
 }
 .green {
   color: #198753;
+}
+.navbar-brand {
+  margin-left: 40px;
 }
