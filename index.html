@@ -44,9 +44,17 @@
       background-color: lightblue;
       border: #e3e0e3;
     }
+    #dark-btn:hover {
+      background-color: #d3d4d5;
+      border: none;
+    }
     a {
       font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
         "Lucida Sans", Arial, sans-serif;
+    }
+    h3 {
+      font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
     }
     h4 {
       color: #df7d86;
@@ -54,10 +62,7 @@
         Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
         sans-serif;
     }
-    #dark-btn:hover {
-      background-color: #d3d4d5;
-      border: none;
-    }
+
     body {
       margin: auto;
       max-width: 800px;
@@ -67,12 +72,15 @@
       border: none;
       margin: auto 80px;
     }
+    .btn-primary:hover {
+      background-color: #d3d4d5;
+    }
     .card-title {
       text-align: center;
     }
   </style>
   <body>
-    <nav class="navbar navbar-light navbar-expand-lg">
+    <nav class="navbar navbar-light navbar-expand-lg" id="strip">
       <a
         class="navbar-brand"
         href="#"
@@ -149,10 +157,13 @@
               alt="an image of Rihab holding her instrument, the oud"
             />
             <p class="card-text">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
+              I'm an oud player, composer & community workshop leader, visit my
+              music website to learn about my work in music
             </p>
-            <a href="#" class="btn btn-primary d-block justify-content-center"
+            <a
+              href="https://www.rihabazar.co.uk/"
+              target="_blank"
+              class="btn btn-primary d-block justify-content-center"
               >visit my website</a
             >
           </div>
@@ -168,10 +179,12 @@
               alt="image of weather forecast app Rihab'd coded"
             />
             <p class="card-text">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
+              I started learning to code with SheCodes in September 2023, click
+              below to visit my portfolio page
             </p>
-            <a href="#" class="btn btn-primary d-block justify-content-center"
+            <a
+              href="about.html"
+              class="btn btn-primary d-block justify-content-center"
               >visit my portfolio</a
             >
           </div>
