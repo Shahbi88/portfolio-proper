@@ -21,19 +21,26 @@
     @media (max-width: 600px) {
       h1,
       h3,
+      h2
       p,
       a,
       div {
-        font-size: xx-small;
+        font-size: x-small;
+        align-items: center;
         
       }
       h1 {
-        text-transform: bold;
-        color: green;
         text-decoration: underline;
+        font-size: xx-small;
         
       }
-    }
+      .subheading{
+        background: none;
+         font-size: xx-small;
+         margin: 20px 600px;
+     
+      }}
+    
     h3{   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
         sans-serif;}
 h1{
@@ -48,6 +55,31 @@ h1{
       border-radius: 10px;
       padding: 20px;
     }
+    .container {
+  overflow: hidden;
+  margin-top: 10px;
+
+}
+
+.subheading {
+  text-align: center;
+  margin: 20px auto;
+  background-color: #12BFBA;
+  display: block;
+  border-radius: 10px;
+  padding: 20px;
+}
+   .email{
+    font-size: medium;
+   }
+   .address{
+    font-size: x-small;
+   }
+   .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
   </style>
   <body>
     <a
@@ -56,28 +88,20 @@ h1{
       title="go back to the homepage of Rihab Azar's portfolio website"
       >Back to homepage</a
     >
-    <div
-      class="container d-block justify-content-center d-block d-md-none"
-      id="comms"
+  <div class="container d-flex flex-column justify-content-center d-md-none" class="address">
+  <div class="m-3 p-2 email-card">
+    <h2 class="email" title="contact Rihab Azar on the email below this text">📮 Contact me:</h2>
+    <a class="address email-link" 
+      href="mailto:rihabazar@gmail.com"
+      title="this is the email address you can use to contact Rihab Azar"
     >
-      <div id="contact" class="m-3 p-2">
-        <h2 id="email" title="contact Rihab Azar on the email below this text">
-          📮 Contact me
-        </h2>
-        <div>
-          <a
-            href="mailto:rihabazar@gmail.com"
-            class="email-link"
-            title="this is the email address you can use to contact Rihab Azar"
-          >
-            rihabazar@gmail.com
-          </a>
-        </div>
-      </div>
-    </div>
+    rihabazar@gmail.com
+    </a>
+  </div>
+</div>
     <h1 class="p-4">About me</h1>
 
-    <h3 class="p-3" class="description">Front-end developer from london, UK</h3>
+    <h3 class="p-3 m-2" class="description">Front-end developer from london, UK</h3>
     <p
       title="this is an introduction about Rihab Azar, an outline of her career in music and her aspirations in her Coding journey to combine both music and coding"
     >
@@ -91,7 +115,8 @@ h1{
     </p>
 
     <div class="images" class="container m-4">
-      <div class="subheading">My coding projects with SheCodes</div>
+      <div class="container"> <div class="subheading">My coding projects with SheCodes</div></div>
+
       <div class="row d-flex flex-wrap">
         <img
           class="col-sm-4 img-fluid rounded"
@@ -113,21 +138,13 @@ h1{
         />
       </div>
     </div>
-    <div class="container d-block justify-content-center">
-      <div id="contact" class="m-3 p-2" class="contact">
-        <h2 id="email" title="contact Rihab Azar on the email below this text">
-          📮 Contact me
-        </h2>
-        <div>
-          <a
-            href="mailto:rihabazar@gmail.com"
-            class="email-link"
-            title="this is the email address you can use to contact Rihab Azar"
-          >
-            rihabazar@gmail.com
-          </a>
-        </div>
-      </div>
-    </div>
+<div class="container">
+  <div class="d-flex flex-column m-3 p-2 email-card">
+    <h2 class="email" title="contact Rihab Azar on the email below this text">📮 Contact me:</h2>
+    <a class="" href="mailto:rihabazar@gmail.com" title="this is the email address you can use to contact Rihab Azar">
+      rihabazar@gmail.com
+    </a>
+  </div>
+</div>
   </body>
 </html>
