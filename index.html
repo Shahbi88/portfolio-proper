@@ -23,7 +23,7 @@
     body {
       background-color: #f4e696;
          margin: auto;
-      max-width: 900px;
+    
     }
 
     @media (max-width: 600px) {
@@ -101,6 +101,10 @@ footer ,a {
   display: block;
   justify-content: center;
 }
+img{
+  max-width: 100%
+height: auto
+}
   </style>
   <body>
     <nav class="navbar navbar-light navbar-expand-lg d-flex justify-content-between" id="strip">
@@ -165,51 +169,30 @@ footer ,a {
   
       <h4 class="d-flex justify-content-center mt-3 mb-4">An overview</h4>
     </div>
-    <div class="row d-flex justify-content-center">
-      <div class="col-6 d-flex">
-        <div class="card flex-fill" style="width: 18rem">
-          <div class="card-body">
-            <h5 class="card-title">Music</h5>
-            <img
-              class="card-img-top"
-              src="/images/mandala.jpg"
-              alt="an image of Rihab holding her instrument, the oud"
-            />
-            <p class="card-text">
-              I'm an oud player, composer & community workshop leader, visit my
-              music website to learn about my work in music
-            </p>
-            <a
-              href="https://www.rihabazar.co.uk/"
-              target="_blank"
-              class="btn btn-primary d-block justify-content-center"
-              >visit my website</a
-            >
-          </div>
-        </div>
-      </div>
-      <div class="col-6 d-flex">
-        <div class="card flex-fill" style="width: 18rem">
-          <div class="card-body d-block justify-content-center">
-            <h5 class="card-title">Coding</h5>
-            <img
-              class="card-img-top"
-              src="/images/thumbnail-cast.png"
-              alt="image of weather forecast app Rihab'd coded"
-            />
-            <p class="card-text">
-              I started learning to code with SheCodes in September 2023, click
-              below to visit my portfolio page
-            </p>
-            <a
-              href="portfolio.html"
-              class="btn btn-primary d-block justify-content-center"
-              >visit my portfolio</a
-            >
-          </div>
-        </div>
+<div class="row d-flex justify-content-center">
+  <div class="col-12 col-md-6">
+    <div class="card">
+      <div class="card-body ">
+        <h5 class="card-title">Music</h5>
+        <img class="card-img-top img-fluid rounded" src="/images/mandala.jpg" alt="an image of Rihab holding her instrument, the oud" />
+        <p class="card-text">I'm an oud player, composer & community workshop leader, visit my music website to learn about my work in music</p>
+        <a href="https://www.rihabazar.co.uk/" target="_blank" class="btn btn-primary d-block justify-content-center">visit my website</a>
       </div>
     </div>
+  </div>
+  <div class="col-12 col-md-6">
+    <div class="card">
+      <div class="card-body d-block justify-content-center">
+        <h5 class="card-title">Coding</h5>
+        <img class="card-img-top img-fluid rounded" src="/images/thumbnail-cast.png" alt="image of weather forecast app Rihab'd coded" />
+        <p class="card-text">I started learning to code with SheCodes in September 2023, click below to visit my portfolio page</p>
+        <a href="portfolio.html" class="btn btn-primary d-block justify-content-center">visit my portfolio</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
       <div class="info" class="d-block text-center">
       <button type="button" class="btn btn-light border thicker-border m-3">
         <a href="contact.html" class="text-decoration-none green">
