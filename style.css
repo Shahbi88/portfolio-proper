@@ -81,3 +81,6 @@ p {
   margin: auto;
   display: flexbox;
 }
+span {
+  display: flex;
+}
