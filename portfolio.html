@@ -22,6 +22,8 @@
       background-color: #f4e696;
          margin: auto;
       max-width: 800px;
+      align-items: center;
+      text-align: center;
     }
     @media (max-width: 600px) {
       h1,
@@ -45,7 +47,7 @@
       .subheading{
         background: none;
          font-size: xx-small;
-         margin: 20px 600px;
+
       }
      .container{
    padding: 0px;
@@ -145,12 +147,31 @@ width: 800px;
 }
 .projects{
 display: grid;
-   grid-template-columns: repeat(3, 1fr);
-      grid-template-rows: repeat(2, 1fr);
+   grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(3, 1fr);
       grid-gap: 3px;
       justify-content: center;
       text-align: center;
       align-items: center;
+
+}
+.my-projects{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-template-rows:1,1fr ;
+}
+@media (max-width:800px){
+.projects{
+  display: block;
+  margin: auto;
+  align-items: center;
+  text-align: center;
+  align-self: center;
+}
+img{
+  width: 300px;
+  margin: 0px;
+}
 
 }
 .address{
@@ -196,7 +217,7 @@ display: grid;
 
 <div class="images">
 
-    <div  class="projects">
+    <div  class="MY-projects">
           <div>
                 <a href="https://nazir-battikh.netlify.app/ " target="_blank" class="invite"> 
         <img
