@@ -85,18 +85,17 @@ h1{
       font-size: large;
     
     }
-    .container {
-  overflow: hidden;
+  .container {
+
   margin-top: 10px;
 
 }
-img{
-  max-width: 50%;
-height: auto;
+div a img{
+
 }
 .images{
-  column-count: 2;
-
+display: inline-flex;
+flex-direction: column;
 }
 .subheading {
   text-align: center;
@@ -112,9 +111,7 @@ height: auto;
     font-size: x-small;
    }
    .container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+
 }
 a{
 display: flex;
@@ -145,6 +142,16 @@ background-color:wheat;
 img{
   margin-top: 10px;
 width: 800px;
+}
+.projects{
+display: grid;
+   grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+      grid-gap: 3px;
+      justify-content: center;
+      text-align: center;
+      align-items: center;
+
 }
 .address{
   font-size: larger;
@@ -185,63 +192,93 @@ width: 800px;
       I'd also love to help grassroot organisations and humanitarian
       initiatives build attractive platforms
     </p>
+          <div class="container"> <div class="subheading">My independent coding projects</div></div>
+
+<div class="images">
+
+    <div  class="projects">
+          <div>
+                <a href="https://nazir-battikh.netlify.app/ " target="_blank" class="invite"> 
+        <img
+          class="img-fluid rounded" 
+            id="big"
+          src="images/poetry.png"
+          alt="this is a screenshot of the homepage of Syrian poet Nazir Battikh website"/>
+    </a>
+</div>
+
+
+
+ </div>
+</div>
+
       <div class="container"> <div class="subheading">My coding projects with SheCodes</div></div>
     <div class="images" >
 
       <div  class="projects">
-        <div>
-        <img
-          class=" img-fluid rounded max-width"
-          src="images/intro.png"
-          alt="this is a screenshot of a webpage introducing Rihab Azar"
-        />
-        <a target="_blank" href="https://www.shecodes.io/cohorts/shecodes-basics-c5d602f8-24b1-472e-a63e-60b4fa1c397e/projects/1871827" class="invite">visit this project</a>
-     
-</div>
-  <div>
+          <div>
+                <a href="https://relaxed-crumble-52f193.netlify.app/" target="_blank" class="invite"> 
         <img
           class="img-fluid rounded" 
             id="big"
           src="images/weatherapp.png"
           alt="this is a screenshot of a Forecast website page"/>
-          <a href="https://relaxed-crumble-52f193.netlify.app/" target="_blank" class="invite"> visit this project</a>
+    </a>
  </div>
    <div>
+     <a href="https://lovely-crisp-02997b.netlify.app/" target="_blank" class="invite">
+            <img
+          class="img-fluid rounded"
+          id="big"
+          src="images/arabic-poem.png"
+          alt="this is a screenshot of the poem generator app Rihab coded"
+        />
+       </a>
+  </div>
+
+        <div>
+              <a href="" target="_blank" class="invite">
+        <img
+          class="img-fluid rounded"
+          id="big"
+          src="images/world.png" 
+          alt="this is a screenshot of a Worldclock website page"
+        />
+  </a>
+        </div>
+        <div>
+             <a target="_blank" href="https://www.shecodes.io/cohorts/shecodes-basics-c5d602f8-24b1-472e-a63e-60b4fa1c397e/projects/1871827" class="invite">
+        <img
+          class=" img-fluid rounded max-width"
+          src="images/intro.png"
+          alt="this is a screenshot of a webpage introducing Rihab Azar"
+        />
+    </a>
+     
+</div>
+
+   <div>
+       <a href="https://sunny-belekoy-ac520e.netlify.app/" target="_blank" class="invite">
           <img
           class="img-fluid rounded"
           id="big"
-          src="images/dictionaryapp.png"
+          src="images/dictionary-app.png"
           alt="this is a screenshot of the react dictionary app Rihab coded"
         />
-        <a href="https://sunny-belekoy-ac520e.netlify.app/" target="_blank" class="invite">visit this project</a>
+   </a>
     </div>
         <div>
+             <a href="https://stalwart-treacle-326b90.netlify.app/" target="_blank" class="invite">
         <img
           class="img-fluid rounded"
           id="big"
           src="images/musitraxapp.png"
           alt="this is a screenshot of the Musitrax app Rihab coded"
         />
-        <a href="https://stalwart-treacle-326b90.netlify.app/" target="_blank" class="invite">visit this project</a>
+ </a>
  </div>
-        <div>
-            <img
-          class="img-fluid rounded"
-          id="big"
-          src="images/poemapp.png"
-          alt="this is a screenshot of the poem generator app Rihab coded"
-        />
-        <a href="https://lovely-crisp-02997b.netlify.app/" target="_blank" class="invite">visit this project</a>
-  </div>
-        <div>
-        <img
-          class="img-fluid rounded"
-          id="big"
-          src="images/world.png"
-          alt="this is a screenshot of a Worldclock website page"
-        />
-        <a href="" target="_blank" class="invite">visit this project</a>
-        </div>
+      
+  
 </div>
 <br/>
 <div class="container mt-4 border">
