@@ -32,7 +32,10 @@
  .social-links {
       align-items: center;
     }
-    @media (max-width: 600px) {
+    @media (max-width: 800px) {
+#navbarNavAltMarkup{
+font-size: 10px;
+}
       .navbar-brand {
         margin-left: 10px;
       }
@@ -42,9 +45,27 @@
       .projects {
         display: grid;
       }
-   .logo{
+      .logo{
     display: none;
-   }
+  }
+.card-container{
+  display: block;
+  justify-self: center;
+  justify-content: center;
+  align-items: center;
+}
+.body-container{
+  display: block;
+  justify-content: center;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+}
+.col-12{
+  display: flex;
+}
+
+}
  
   
     }
@@ -118,28 +139,70 @@ text-wrap: none;
 font-family: 'Courier New', Courier, monospace;
 font-weight: bold;
 }
+.info{
+  margin-top: 40px;
+}
+footer{
+  margin-top: 40px;
+}
 footer ,a {
   display: block;
   justify-content: center;
 }
 .body-container{
-  display: flex;
-  flex-direction: column;
+  display: block;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
   margin-left: 90px;
   margin-right: 90px;
 }
 @media (max-width:800px){
+  .navbar-toggler-icon{
+    display: flex;
+
+  }
   .body-container{
-    margin: 0px;
+    margin: auto;
+    padding: auto;
+    max-width: 500px;
+    display: block;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+  .row {
+  display: flex;
+}
+
+.col {
+  flex: 1;
+}
+  .card-container{
+  display: flex;
+  flex-direction: column;
+  max-width: 10px;
+
+  }
+  div .card-body{
+    display: block;
+margin: 0px;
+
   }
 }
+
 .container{
   display: block;
-
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+margin: 0px;
+padding: 0px;
 }
 
-.card p {
-
+.card {
+max-width: 300px;
+height: auto;
 }
 h2{
   font-size: 20px;
@@ -218,6 +281,7 @@ h3{
       <div>based in london</div>
     </h3>
     </div>
+ 
 <div class="row align-items-stretch" class="card-container">
   <div class="col-12 col-md-6">
     <div class="card">
