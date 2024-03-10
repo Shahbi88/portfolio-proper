@@ -11,13 +11,27 @@ h3 {
   margin: 0;
 }
 
-h2 {
-  font-size: 45px;
+.card-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: center;
+}
+.row {
+  display: flex;
 }
 
-h3 {
-  font-size: 24px;
-  opacity: 0.7;
+.col {
+  flex: 1;
+}
+
+.card {
+  width: 400px;
+  height: 400px;
+  margin: auto;
+}
+.card-body {
+  margin: 0px;
 }
 
 p {
@@ -27,6 +41,7 @@ p {
   font-size: 18px;
   line-height: 1.5;
   text-align: center;
+  margin: auto;
 }
 
 .navigation-links {
@@ -88,6 +103,10 @@ span {
   display: flex;
 }
 img {
+  height: 300px;
+  width: auto;
+  margin: auto;
+  padding: 6px;
 }
 #heading-port {
   font-size: 40px;
@@ -104,7 +123,7 @@ img {
   align-items: center;
 }
 footer {
-  margin: 20px;
+  margin-top: 10px;
 }
 .col {
   display: block;
