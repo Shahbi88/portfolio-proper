@@ -97,3 +97,16 @@ img {
   padding: 0px;
   margin: 0px;
 }
+.container {
+  display: block;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+footer {
+  margin: 20px;
+}
+.col {
+  display: block;
+  text-align: center;
+}
