@@ -25,6 +25,9 @@
       align-items: center;
       text-align: center;
     }
+    .img{
+      transform: scale(0.75,0.75);
+    }
     @media (max-width: 600px) {
       h1,
       h2
@@ -70,7 +73,7 @@ padding: 0px;
     
     h3{   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
         sans-serif;
-        color:#DE8365 ;
+        color:#af6d57 ;
       font-size: small;}
 h1{
   margin: 0px;
@@ -79,10 +82,8 @@ h1{
 }
     .subheading{
       text-align: center;
-      margin: 20px 350px;
       background-color:;
       display: block;
-      padding: 20px;
       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
       font-size: large;
     
@@ -142,8 +143,8 @@ padding: none;
 background-color:wheat;
 }
 img{
-  margin-top: 10px;
 width: 800px;
+height: auto;
 }
 .projects{
 display: grid;
@@ -155,7 +156,7 @@ display: grid;
       align-items: center;
 
 }
-.my-projects{
+.projects{
   display: grid;
      grid-template-columns: repeat(2, 1fr);
      grid-template-rows: auto;
@@ -163,6 +164,9 @@ display: grid;
       justify-content: center;
       text-align: center;
       align-items: center;
+}
+.projects div{
+  margin: 5px;
 }
 @media (max-width:800px){
 .projects{
@@ -172,9 +176,14 @@ display: grid;
   text-align: center;
   align-self: center;
 }
+.projects div{
+  margin: 0px
+}
 img{
-  width: 300px;
+  width: 500px;
+  height: auto;
   margin: 0px;
+  padding: 0px;
 }
 
 }
@@ -205,7 +214,7 @@ img{
 </div>
     <h1 class="p-2 mt-3" id="heading-port">Rihab & Coding</h1>
 
-    <h3 class="p-2 " class="description">Front-end developer from london, UK</h3>
+    <h3 class="p-2 " class="description">Front-end developer based in London, UK</h3>
     <p
       title="this is an introduction about Rihab Azar, an outline of her career in music and her aspirations in her Coding journey to combine both music and coding"
     >
@@ -221,7 +230,7 @@ img{
 
 
   
-      <div class="container my-projects">
+      <div class="projects">
           <div>
                 <a href="https://nazir-battikh.netlify.app/ " target="_blank" class="invite"> 
         <img
@@ -241,7 +250,6 @@ img{
     </a>
 </div>
 </div>
-
 
 
       <div class="container"> <div class="subheading">My coding projects with SheCodes</div></div>
@@ -302,7 +310,7 @@ img{
 
 
         <div>
-             <a href="https://stalwart-treacle-326b90.netlify.app/" target="_blank" class="invite">
+             <a href="https://lmsscheme.netlify.app/  " target="_blank" class="invite">
         <img
           class="img-fluid rounded"
           id="big"
