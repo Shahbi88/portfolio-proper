@@ -68,6 +68,11 @@ p {
   color: var(--primary-color);
   text-align: center;
   display: block;
+  text-decoration: none;
+}
+.homepage-link:hover {
+  color: #138496;
+  text-decoration: underline;
 }
 .subheading {
   font-size: 30px;
