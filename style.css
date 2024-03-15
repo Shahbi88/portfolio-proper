@@ -134,3 +134,11 @@ footer {
   display: block;
   text-align: center;
 }
+.my-web {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: #7e2609;
+  font-weight: 550;
+}
+.my-web:hover {
+  color: #b53b12;
+}
